@@ -23,7 +23,7 @@ class ChessBoard:
 
             print(Back.BLACK + "" + Back.RESET + f" {8 - i}")
 
-        x = 0;
+        x = 0
         for letter in string.ascii_uppercase:
             print(" " + letter, end=" ")
             x += 1
@@ -31,6 +31,7 @@ class ChessBoard:
                 break
 
     def turn(self):
+        piece = input("Which piece you want to move: \n")
         move = list(input("Make your move: \n"))
 
     def king_list_moves(self, piece_pos):
