@@ -31,7 +31,12 @@ class ChessBoard:
                 break
 
     def turn(self):
-        piece = input("Which piece you want to move: \n")
+        piece = input("Which piece you want to move (P if you want to move pawn): \n")
+        if piece == "K":
+            pass
+        elif piece == "P":
+            pass
+
         move = list(input("Make your move: \n"))
 
     def king_list_moves(self, piece_pos):
