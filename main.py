@@ -29,6 +29,7 @@ class ChessBoard:
             x += 1
             if x == 8:
                 break
+        print("")
 
     def turn(self):
         piece = input("Which piece you want to move (P if you want to move pawn): \n")
@@ -44,6 +45,10 @@ class ChessBoard:
             pass
         elif piece == "B":
             pass
+
+        # print possible moves there
+
+        # specify which piece you should move if there are two possibilities
 
         move = list(input("Make your move: \n"))
 
@@ -98,7 +103,7 @@ class ChessBoard:
 
 if __name__ == "__main__":
     ChessBoard().print()
-
+    ChessBoard().turn()
 # move = list(input("Make your move: \n"))
 # od a do h
 # print(ord('h')-96)
