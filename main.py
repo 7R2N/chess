@@ -36,6 +36,14 @@ class ChessBoard:
             pass
         elif piece == "P":
             pass
+        elif piece == "Q":
+            pass
+        elif piece == "R":
+            pass
+        elif piece == "N":
+            pass
+        elif piece == "B":
+            pass
 
         move = list(input("Make your move: \n"))
 
