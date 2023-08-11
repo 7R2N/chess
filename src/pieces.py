@@ -3,7 +3,8 @@ class King:
 
 
 class Pawn:
-    pass
+    moved = False
+    position = []
 
 
 class Knight:
