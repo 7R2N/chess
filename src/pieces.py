@@ -6,7 +6,6 @@ class Pawn:
     moved = False
     position = []
 
-
 class Knight:
     pass
 

@@ -97,3 +97,15 @@ class ChessBoard:
 
     def pawn_list_moves(self, piece_pos):
         legal_moves = []
+
+    def knight_list_moves(self, piece_pos):
+        legal_moves = []
+
+    def rook_list_moves(self, piece_pos):
+        legal_moves = []
+
+    def queen_list_moves(self, piece_pos):
+        legal_moves = []
+
+    def bishop_list_moves(self, piece_pos):
+        legal_moves = []
