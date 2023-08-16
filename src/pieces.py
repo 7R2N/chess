@@ -4,16 +4,20 @@ class King:
 
 class Pawn:
     moved = False
-    position = []
+    piece_pos = []
+
 
 class Knight:
     pass
 
+
 class Bishop:
     pass
 
+
 class Rook:
     pass
+
 
 class Queen:
     pass
