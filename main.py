@@ -1,11 +1,11 @@
-# from src.pieces import Empty, King, Pawn
+
 from src.chessboard import ChessBoard
 
 if __name__ == "__main__":
 
     CB = ChessBoard()
-
-    CB.print()
+    print(ord('h') - 97)
+    CB.bprint()
     CB.turn()
 
-# print(ord('h')-96)
+
