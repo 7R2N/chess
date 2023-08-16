@@ -142,14 +142,15 @@ class ChessBoard:
                             and piece.piece_pos[1] + 1 <= 7:
                         pass
 
-    def knight_list_moves(self, piece_pos):
+    def knight_list_moves(self, piece):
         legal_moves = []
 
-    def rook_list_moves(self, piece_pos):
+
+    def rook_list_moves(self, piece):
         legal_moves = []
 
-    def queen_list_moves(self, piece_pos):
+    def queen_list_moves(self, piece):
         legal_moves = []
 
-    def bishop_list_moves(self, piece_pos):
+    def bishop_list_moves(self, piece):
         legal_moves = []
